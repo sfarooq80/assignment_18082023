@@ -1,5 +1,10 @@
-// Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
+// They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
 
-let multiplethings:string[] = ["mounteverest","efeltower","niagrawaterfall","Malaysia","urdu"];
+let objects = {
+        name : "arsalan",
+        occupation:"webdeveloper",
+        education : "BS Computer Science",
+        Address : "Peshawar"
+}
 
-console.log(multiplethings)
+console.log(objects.name)
