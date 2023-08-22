@@ -1,11 +1,23 @@
 "use strict";
-// Hello Admin: Make a array of five or more usernames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user after they log in to a website. Loop through the array, and print a greeting to each user:
-let users = ['admin', 'kashif', 'umer', 'talha', 'mehmood'];
-for (let i = 0; i < users.length; i++) {
-    if (users[i] == "admin") {
-        console.log(`welcome administrator with all previliages`);
-    }
-    else {
-        console.log(`Hello ${users[i]}`);
-    }
+// • If the person is less than 2 years old, print a message that the person is a baby.
+// • If the person is at least 2 years old but less than 4, print a message that the person is a toddler.
+// • If the person is at least 4 years old but less than 13, print a message that the person is a kid.
+// • If the person is at least 13 years old but less than 20, print a message that the person is a teenager.
+// • If the person is at least 20 years old but less than 65, print a message that the person is an adult.
+// • If the person is age 65 or older, print a message that the person is an elder.
+let personage = 2;
+if (personage < 2) {
+    console.log("Person is baby.");
+}
+else if (personage >= 2 && personage < 4) {
+    console.log("person is a toddler");
+}
+else if (personage >= 4 && personage < 13) {
+    console.log("person is a kid");
+}
+else if (personage >= 13 && personage < 20) {
+    console.log("person is a teenager");
+}
+else if (personage >= 65) {
+    console.log("person is elder");
 }
