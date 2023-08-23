@@ -2,8 +2,9 @@
 
 function make_album(music_album:object){
 
-    // console.log(music_album['artistname']) ;
-    return music_album['artistname'] ;
+    console.log(album_details.artistname) ;
+    console.log(album_details.albumtitle) ;
+    // return music_album['artistname'] ;
 }
 
 
@@ -13,4 +14,4 @@ let album_details = {
 }
 
 let res = make_album(album_details);
-console.log(album_details.artistname);
+// console.log(album_details.artistname);
