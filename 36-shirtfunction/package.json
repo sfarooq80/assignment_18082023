@@ -1,8 +1,8 @@
 {
-  "name": "7-math_oper",
+  "name": "34-",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "file.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
